@@ -13,7 +13,10 @@ public class LeetCode_155 {
 
     private Stack<Integer> s1;
     private Stack<Integer> s2;
-    /** initialize your data structure here. */
+
+    /**
+     * initialize your data structure here.
+     */
     public LeetCode_155() {
         s1 = new Stack<>();
         s2 = new Stack<>();
@@ -21,13 +24,15 @@ public class LeetCode_155 {
 
     public void push(int x) {
         s1.push(x);
-        if(s2.empty()==true||s2.peek()>=x) {
+        if (s2.empty() == true || s2.peek() >= x) {
             s2.push(x);
         }
     }
 
     public void pop() {
-        if(s1.peek()-s2.peek()==0) s2.pop();
+        if (s1.peek() - s2.peek() == 0) {
+            s2.pop();
+        }
         s1.pop();
     }
 

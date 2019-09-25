@@ -11,24 +11,26 @@ public class LeetCode_66 {
 
     /**
      * 计算加一
-     * @param digits
-     * @return
      */
     public int[] plusOne(int[] digits) {
 
+        // 第一步：现将数组转换为多位数
         int sum = 0;
         int x = 1;
         for (int i = digits.length - 1; i >= 0; i--) {
             sum += digits[i] * x;
             x *= 10;
         }
+        // 第二步：多位数加一
         sum += 1;
+        // 第三步：计算多位数的位数
         int tem = sum;
         int n = 0;
         do {
             tem /= 10;
             n++;
         } while (tem != 0);
+        // 第四步：将多位数又转换为数组
         int[] b = new int[n];
         for (int i = n - 1; i >= 0; i--) {
             b[i] = sum % 10;

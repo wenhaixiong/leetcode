@@ -1,5 +1,12 @@
-package com.hx.d20190925;
+package com.hx.leetcode;
 
+/**
+ * @author: wenhx(温海雄)
+ * @date: Created in 2019/9/25 10:58
+ * @description: LeetCode算法第1154题：计算一年中的第几天
+ * @status: 已完成
+ * @version: $1.0
+ */
 public class LeetCode_1154 {
 
 

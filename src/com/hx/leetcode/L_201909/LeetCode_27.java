@@ -1,10 +1,11 @@
 package com.hx.leetcode.L_201909;
 
 /**
- * @author: wenhx(温海雄)
+ * @author: wenhx
  * @date: Created in 2019/9/25 16:26
- * @description: LeetCode算法第27题：移除元素
- * @status: 未完成
+ * @description: LeetCode_27：移除元素
+ * @level: simple
+ * @status: finish
  * @version: $1.0
  */
 public class LeetCode_27 {

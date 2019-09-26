@@ -1,10 +1,11 @@
 package com.hx.leetcode.L_Before;
 
 /**
- * @author: wenhx(温海雄)
+ * @author: wenhx
  * @date: Created in 2019/9/25 10:58 （之前）
- * @description: LeetCode算法第263题：丑数
- * @status: 未完成
+ * @description: LeetCode_263：丑数
+ * @level: simple
+ * @status: finish
  * @version: $1.0
  */
 public class LeetCode_263 {

@@ -3,10 +3,11 @@ package com.hx.leetcode.L_Before;
 import java.util.Stack;
 
 /**
- * @author: wenhx(温海雄)
+ * @author: wenhx
  * @date: Created in 2019/9/25 10:58 （之前）
- * @description: LeetCode算法第20题：有效的括号
- * @status: 已完成
+ * @description: LeetCode_20：有效的括号
+ * @level: simple
+ * @status: finish
  * @version: $1.0
  */
 public class LeetCode_20 {

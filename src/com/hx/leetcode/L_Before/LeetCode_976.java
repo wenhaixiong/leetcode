@@ -3,10 +3,11 @@ package com.hx.leetcode.L_Before;
 import java.util.Arrays;
 
 /**
- * @author: wenhx(温海雄)
+ * @author: wenhx
  * @date: Created in 2019/9/25 10:58 （之前）
- * @description: LeetCode算法第976题：三角形的最大周长
- * @status: 未完成
+ * @description: LeetCode_976：三角形的最大周长
+ * @level: simple
+ * @status: finish
  * @version: $1.0
  */
 public class LeetCode_976 {

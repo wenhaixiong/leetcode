@@ -1,10 +1,11 @@
 package com.hx.leetcode.L_Before;
 
 /**
- * @author: wenhx(温海雄)
+ * @author: wenhx
  * @date: Created in 2019/9/25 10:58 （之前）
- * @description: LeetCode算法第1题：计算两数之和
- * @status: 已完成
+ * @description: LeetCode_1：计算两数之和
+ * @level: simple
+ * @status: finish
  * @version: $1.0
  */
 public class LeetCode_1 {

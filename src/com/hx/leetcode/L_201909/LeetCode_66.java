@@ -1,10 +1,11 @@
 package com.hx.leetcode.L_201909;
 
 /**
- * @author: wenhx(温海雄)
+ * @author: wenhx
  * @date: Created in 2019/9/25 10:58
- * @description: LeetCode算法第66题：加一
- * @status: 未完成
+ * @description: LeetCode_66：加一
+ * @level: simple
+ * @status: finish no
  * @version: $1.0
  */
 public class LeetCode_66 {
@@ -43,9 +44,8 @@ public class LeetCode_66 {
 
         LeetCode_66 leetCode_66 = new LeetCode_66();
 
-        int[] a = {4, 3, 2, 1};
+        int[] a = {9,8,7,6,5,4,3,2,1,0};
         int[] b = leetCode_66.plusOne(a);
-        System.out.println(b);
         for (int i = 0; i < b.length; i++) {
             System.out.print(b[i] + " ");
         }

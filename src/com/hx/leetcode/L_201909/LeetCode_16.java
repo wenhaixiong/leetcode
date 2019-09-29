@@ -14,6 +14,9 @@ import java.util.Map;
  */
 public class LeetCode_16 {
 
+    /**
+     * 计算最接近的三数之和
+     */
     public int threeSumClosest(int[] nums, int target) {
 
         // 第一步：求得数组nums与target的绝对距离，放在b[]中

@@ -10,6 +10,9 @@ package com.hx.leetcode.L_201909;
  */
 public class LeetCode_50 {
 
+    /**
+     * 计算x的n次幂
+     */
     public double myPow(double x, int n) {
 
         double result = 1.0;

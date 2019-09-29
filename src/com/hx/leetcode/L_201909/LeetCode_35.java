@@ -10,6 +10,9 @@ package com.hx.leetcode.L_201909;
  */
 public class LeetCode_35 {
 
+    /**
+     * 计算搜索插入位置
+     */
     public int searchInsert(int[] nums, int target) {
 
         for (int i = 0; i < nums.length; i++) {

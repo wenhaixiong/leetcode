@@ -12,6 +12,11 @@ import java.util.Arrays;
  */
 public class LeetCode_136 {
 
+    /**
+     * 计算只出现一个的数字
+     * @param nums
+     * @return
+     */
     public int singleNumber(int[] nums) {
 
         Arrays.sort(nums);

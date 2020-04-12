@@ -9,6 +9,7 @@ import java.util.Arrays;
  * @level 困难
  * @link https://leetcode-cn.com/problems/intersection-lcci/
  * @since 2020/4/12
+ * @state 待完善...
  */
 public class IntersectionPoint {
 
@@ -108,9 +109,9 @@ public class IntersectionPoint {
 //        int[] end2 = {2, 2};
 
         int[] start1 = {0, 0};
-        int[] end1 = {1, 1};
-        int[] start2 = {3, 3};
-        int[] end2 = {2, 2};
+        int[] end1 = {2, 1};
+        int[] start2 = {1, 0};
+        int[] end2 = {0, 1};
 
 //        int[] start1 = {0, 0};
 //        int[] end1 = {1, 1};
